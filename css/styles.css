@@ -1,0 +1,157 @@
+body {
+    /* 
+    margin: 0;
+    padding: 0; 
+    text-align:center;
+    background-color: #191c22;
+    */
+    background-color: #0B0D0F;
+    font-family: 'Helvetica Neue', 'Neue Haas Grotesk Text Pro', Helvetica, Arial, sans-serif;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav, header, section {
+    /* 
+    line-height: 0%; 
+    margin-top: 0px;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Neue Haas Grotesk', Arial, Helvetica, sans-serif;
+    */
+
+    padding: 1em;
+    color: #eeeeee;
+
+}
+
+nav {
+    /* background-color: #FF540D; */
+}
+
+header {
+    /* background-color: #222630; */
+    /* 
+    background-image: url("/images/hero_photo_crater_lake_2.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    */
+    background-color: #222630;
+}
+
+#AboutMe {
+    /*
+    background-color: #4D5669;
+    background-color: #7684A0;
+    */
+    background-color: #474F61;
+    clear: both;
+    overflow: hidden;
+}
+
+#AboutMe #Robert {
+    float: right;
+    margin-left: 1em;
+    margin-top: 0;
+    text-align: center;
+    width: 302px;
+}
+
+#AboutMe #Robert img{
+    border: #ffffff 1px solid;
+}
+
+#AboutMe #Resume img {
+    height: 75px;
+    margin-right: 40px;
+}
+
+#Services {
+    /*background-color: #474F61;*/
+    background-color: #3E4554;
+    clear: both;
+}
+
+#ServiceDescriptions {
+    display: flex;
+    justify-content: space-between;
+}
+
+#ServiceDescriptions figure { 
+    text-align: center;
+    /*     
+    border: 1px solid white;
+    box-sizing: border-box;
+    float: left;
+    width: 30%;
+    align-content: center;
+    */
+}
+
+#ServiceDescriptions img{
+    padding: 10px;
+}
+
+figure img, figure figcaption {
+    /* 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    */
+}
+
+#Clients {
+    /*background-color: #3E4554;*/
+    background-color: #2B303A;
+    clear: both;
+    padding-bottom: 30px;
+}
+
+#ClientImages {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Clients img{
+    /* fill: #ffffff !important; */
+}
+
+#GetInTouch {
+    /*background-color: #2B303A;*/
+    background-color: #191c22;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#GetInTouch div{
+    padding: 20px 10px;
+    width: 33%;
+    text-align: center;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+#GetInTouch div a {
+    /* border: 1px solid #ffffff;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 100%; */
+}
+
+#GetInTouch div img{
+    vertical-align: middle;
+    margin-right: 10px;
+}
