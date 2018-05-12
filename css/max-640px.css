@@ -19,6 +19,7 @@ body {
 }
 
 #ServiceDescriptions figure { 
+    margin: 0;
     text-align: left;
 }
 
