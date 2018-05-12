@@ -3,6 +3,14 @@ body {
     width: 100%;
 }
 
+section h3 {
+    font-size: 150%;
+}
+
+section h4 {
+    font-size: 140%;
+}
+
 #AboutMe #Robert {
     margin: 0;
     text-align: center;
@@ -29,6 +37,10 @@ body {
 #ServiceDescriptions img {
     height: 50px;
     margin: 5px;
+}
+
+#Clients h3 {
+    text-align: center;
 }
 
 #ClientImages {
