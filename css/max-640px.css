@@ -22,6 +22,10 @@ body {
     flex-direction: column;
 }
 
+#ServiceDescriptions figure { 
+    text-align: left;
+}
+
 #ServiceDescriptions img {
     margin: 10px;
     height: 50px;
@@ -32,11 +36,11 @@ body {
 }
 
 #ClientImages div{
-    padding: 20px 10px;
+    padding: 1em;
 }
 
 #ClientImages div img{
-    height: 60px;
+    width: 80%;
 }
 
 #GetInTouch {
@@ -44,7 +48,7 @@ body {
 }
 
 #GetInTouch div{
-    padding: 20px 10px;
+    padding: 1em;
     text-align: center;
 }
 

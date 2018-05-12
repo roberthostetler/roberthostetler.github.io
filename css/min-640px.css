@@ -19,6 +19,14 @@ body {
     margin-right: 40px;
 }
 
+#ServiceDescriptions {  
+    justify-content: space-between;
+}
+
+#ServiceDescriptions figure { 
+    text-align: center;
+}
+
 #ServiceDescriptions img {
     margin: 10px;
     height: 50px;

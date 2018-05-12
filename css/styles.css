@@ -34,11 +34,6 @@ header {
 
 #ServiceDescriptions {
     display: flex;
-    justify-content: space-between;
-}
-
-#ServiceDescriptions figure { 
-    text-align: center;
 }
 
 #Clients {
