@@ -6,6 +6,9 @@ body {
 #AboutMe #Robert {
     margin: 0;
     text-align: center;
+}
+
+#AboutMe #Robert img {
     width: 100%;
 }
 
@@ -19,8 +22,8 @@ body {
 }
 
 #ServiceDescriptions figure { 
-    border: #eeeeee 1px solid;
-    margin: 0;
+    /* border-top: #eeeeee 1px solid; */
+    margin: 1em 0 0 0;
     text-align: left;
 }
 
