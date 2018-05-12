@@ -6,6 +6,18 @@ body {
     max-width: 1200px;
 }
 
+header {
+    font-size: 125%;
+}
+
+section h3 {
+    font-size: 140%;
+}
+
+section h4 {
+    font-size: 130%;
+}
+
 #AboutMe #Robert {
     float: right;
     margin-left: 1em;
@@ -23,17 +35,27 @@ body {
     margin-right: 40px;
 }
 
+#Services h3 {
+    text-align: center;
+}
+
 #ServiceDescriptions {  
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 #ServiceDescriptions figure { 
-    text-align: center;
+    text-align: left;
+    width: 38%;
 }
 
 #ServiceDescriptions img {
     height: 50px;
     margin: 10px;
+}
+
+#Clients h3 {
+    text-align: center;
 }
 
 #ClientImages {

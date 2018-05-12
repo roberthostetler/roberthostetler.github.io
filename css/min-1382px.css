@@ -1,6 +1,13 @@
 body {
-    margin: 0;
-    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 1382px;
+}
+
+header {
+    font-size: 125%;
 }
 
 section h3 {
@@ -28,17 +35,20 @@ section h4 {
     margin-right: 40px;
 }
 
-#ServiceDescriptions {
-    flex-direction: column;
+#Services h3 {
+    text-align: center;
+}
+
+#ServiceDescriptions {  
+    justify-content: space-between;
 }
 
 #ServiceDescriptions figure { 
-    margin: 1em 0 0 0;
     text-align: left;
 }
 
 #ServiceDescriptions img {
-    height: 50px;
+    height: 70px;
     margin: 10px;
 }
 
@@ -48,24 +58,20 @@ section h4 {
 
 #ClientImages {
     flex-wrap: wrap;
-    justify-content: center;
-}
-
-#ClientImages div{
-    padding: 2em;
 }
 
 #ClientImages div img{
-    height: 75px;
+    height: 70px;
 }
 
 #GetInTouch {
-    flex-direction: column;
+    align-items: center;
 }
 
 #GetInTouch div{
-    padding: 1em;
-    text-align: left;
+    padding: 20px 10px;
+    text-align: center;
+    width: 33%;
 }
 
 #GetInTouch div img{
