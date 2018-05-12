@@ -3,13 +3,24 @@ body {
     width: 100%;
 }
 
+section h3 {
+    font-size: 140%;
+}
+
+section h4 {
+    font-size: 130%;
+}
+
 #AboutMe #Robert {
-    margin: 0;
+    float: right;
+    margin-left: 1em;
+    margin-top: 0;
     text-align: center;
+    width: 302px;
 }
 
 #AboutMe #Robert img {
-    width: 100%;
+    width: 300px;
 }
 
 #AboutMe #Resume img {
@@ -28,25 +39,28 @@ body {
 
 #ServiceDescriptions img {
     height: 50px;
-    margin: 5px;
+    margin: 10px;
+}
+
+#Clients h3 {
+    text-align: center;
 }
 
 #ClientImages {
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #ClientImages div{
-    padding: 1em;
+    padding: 2em;
 }
 
 #ClientImages div img{
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
+    height: 60px;
 }
 
 #GetInTouch {
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 #GetInTouch div{
