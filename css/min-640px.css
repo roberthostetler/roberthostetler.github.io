@@ -40,6 +40,10 @@ body {
     height: 60px;
 }
 
+#GetInTouch {
+    align-items: center;
+}
+
 #GetInTouch div{
     padding: 20px 10px;
     width: 33%;
