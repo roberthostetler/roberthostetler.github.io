@@ -1,0 +1,55 @@
+body {
+    width: 100%;
+    margin: 0;
+}
+
+#AboutMe #Robert {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+#AboutMe #Resume img {
+    height: 75px;
+    margin-right: 40px;
+}
+
+#ServiceDescriptions div img{
+    padding: 10px;
+}
+
+#ServiceDescriptions {
+    flex-direction: column;
+}
+
+#ServiceDescriptions img {
+    margin: 10px;
+    height: 50px;
+}
+
+#ClientImages {
+    flex-direction: column;
+}
+
+#ClientImages div{
+    padding: 20px 10px;
+}
+
+#ClientImages div img{
+    height: 60px;
+}
+
+#GetInTouch {
+    flex-direction: column;
+}
+
+#GetInTouch div{
+    padding: 20px 10px;
+    text-align: center;
+}
+
+#GetInTouch div img{
+    vertical-align: middle;
+    margin-right: 10px;
+    height: 50px;
+}

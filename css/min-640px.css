@@ -1,0 +1,41 @@
+body {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#AboutMe #Robert {
+    float: right;
+    margin-left: 1em;
+    margin-top: 0;
+    text-align: center;
+    width: 302px;
+}
+
+#AboutMe #Resume img {
+    height: 75px;
+    margin-right: 40px;
+}
+
+#ServiceDescriptions img {
+    margin: 10px;
+    height: 50px;
+}
+
+#ClientImages div img{
+    height: 60px;
+}
+
+#GetInTouch div{
+    padding: 20px 10px;
+    width: 33%;
+    text-align: center;
+}
+
+#GetInTouch div img{
+    vertical-align: middle;
+    margin-right: 10px;
+    height: 50px;
+}

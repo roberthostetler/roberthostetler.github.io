@@ -1,11 +1,6 @@
 body {
     background-color: #0B0D0F;
     font-family: 'Helvetica Neue', 'Neue Haas Grotesk Text Pro', Helvetica, Arial, sans-serif;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
 a {
@@ -18,10 +13,6 @@ nav, header, section {
     color: #eeeeee;
 }
 
-nav {
-    /* background-color: #FF540D; */
-}
-
 header {
     background-color: #222630;
 }
@@ -32,21 +23,8 @@ header {
     overflow: hidden;
 }
 
-#AboutMe #Robert {
-    float: right;
-    margin-left: 1em;
-    margin-top: 0;
-    text-align: center;
-    width: 302px;
-}
-
 #AboutMe #Robert img{
     border: #ffffff 1px solid;
-}
-
-#AboutMe #Resume img {
-    height: 75px;
-    margin-right: 40px;
 }
 
 #Services {
@@ -63,13 +41,6 @@ header {
     text-align: center;
 }
 
-#ServiceDescriptions img{
-    padding: 10px;
-}
-
-figure img, figure figcaption {
-}
-
 #Clients {
     background-color: #2B303A;
     clear: both;
@@ -81,26 +52,9 @@ figure img, figure figcaption {
     justify-content: space-between;
 }
 
-#Clients img{
-}
-
 #GetInTouch {
     background-color: #191c22;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-#GetInTouch div{
-    padding: 20px 10px;
-    width: 33%;
-    text-align: center;
-}
-
-#GetInTouch div a {
-}
-
-#GetInTouch div img{
-    vertical-align: middle;
-    margin-right: 10px;
 }
