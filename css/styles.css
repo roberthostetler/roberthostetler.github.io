@@ -4,7 +4,7 @@ body {
 }
 
 a {
-    color: #ffffff;
+    color: #eeeeee;
     text-decoration: none;
 }
 
@@ -24,7 +24,7 @@ header {
 }
 
 #AboutMe #Robert img{
-    border: #ffffff 1px solid;
+    border: #eeeeee 1px solid;
 }
 
 #Services {
